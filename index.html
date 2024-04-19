@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body dir="ltr">
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <button class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-earth-africa"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/icons/egypt.png" alt="">
+                        Arabic
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/icons/united-kingdom.png" alt="">
+                        English
+                    </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <img src="./images/icons/france.png" alt="">
+                    French
+                </a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="01069195890">
+                    <i class="fa fa-phone"></i>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="meldomany04@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="01069195890">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </button>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <div class="progress-bar progress-bar--primary hide-on-desktop">
+            <div class="progress-bar__fill"></div>
+        </div>
+    
+        <header class="main-post-wrapper">
+            <div class="slides">
+                <article class="main-post main-post--active">
+                    <div class="main-post__image">
+                        <img src="./images/high-reolution/v1.jpg" alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias" />
+                    </div>
+                    <div class="main-post__content">
+                        <div class="main-post__tag-wrapper">
+                            <span class="main-post__tag">Category - A</span>
+                        </div>
+                        <h1 class="main-post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias</h1>
+                        <!-- <a class="main-post__link" href="#">
+                            <span class="main-post__link-text">find out more</span>
+                            <svg class="main-post__link-icon main-post__link-icon--arrow" width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white"/>
+                            </svg>
+                        </a> -->
+                    </div>
+                </article>
+
+                <article class="main-post main-post--not-active">
+                    <div class="main-post__image">
+                        <img src="./images/high-reolution/v2.jpg"/>
+                    </div>
+                    <div class="main-post__content">
+                        <div class="main-post__tag-wrapper">
+                            <span class="main-post__tag">Category - B</span>
+                        </div>
+                        <h1 class="main-post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias</h1>
+                        <!-- <a class="main-post__link" href="#">
+                            <svg class="main-post__link-icon main-post__link-icon--play-btn" width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="10" cy="10" r="9" stroke="#C20000" stroke-width="2"/>
+                                <path d="M14 10L8 6V14L14 10Z" fill="white" />
+                            </svg>
+                            <span class="main-post__link-text">play video</span>
+                        </a> -->
+                    </div>
+                </article>
+                
+                <article class="main-post main-post--not-active">
+                    <div class="main-post__image">
+                        <img src="./images/high-reolution/v3.jpg" alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias" />
+                    </div>
+                    <div class="main-post__content">
+                        <div class="main-post__tag-wrapper">
+                            <span class="main-post__tag">Category - C</span>
+                        </div>
+                        <h1 class="main-post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias
+                        </h1>
+                        <!-- <a class="main-post__link" href="#">
+                            <span class="main-post__link-text">find out more</span>
+                            <svg class="main-post__link-icon main-post__link-icon--arrow" width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white"/>
+                            </svg>
+                        </a> -->
+                    </div>
+                </article>
+            </div>
+        </header>
+    
+        <div class="posts-wrapper hide-on-mobile">
+            <article class="post post--active">
+                <div class="progress-bar">
+                    <div class="progress-bar__fill"></div>
+                </div>
+                <header class="post__header">
+                    <span class="post__tag">Category - A</span>
+                    <p class="post__published">My Company</p>
+                </header>
+                <h2 class="post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias</h2>
+            </article>
+            
+            <article class="post">
+                <div class="progress-bar">
+                    <div class="progress-bar__fill"></div>
+                </div>
+                <header class="post__header">
+                    <span class="post__tag">Category - B</span>
+                    <p class="post__published">My Company</p>
+                </header>
+                <h2 class="post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias</h2>
+            </article>
+
+            <article class="post">
+                <div class="progress-bar">
+                    <div class="progress-bar__fill"></div>
+                </div>
+                <header class="post__header">
+                    <span class="post__tag">Category - C</span>
+                    <p class="post__published">My Company</p>
+                </header>
+                <h2 class="post__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias</h2>
+            </article>
+        </div>
+    </div>
+    
+    <!-- Industry -->
+    <div class="industry page-cutting">
+        <div class="container">
+            <div class="main-header">
+                <h3 class="mb-3">Industry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel delectus, et perspiciatis magni illum praesentium id rerum voluptatem mollitia quis eius voluptatibus doloribus beatae exercitationem aliquam dicta cupiditate voluptate! Sapiente.</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="industry-card industry-card--1">
+                        <div class="opacity-layer"></div>
+                        <div class="card-content">
+                            <h4>Category (A)</h4>
+                            <p>Lorem ipsum dolor sit amet elit gdr consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="industry-card industry-card--2">
+                        <div class="opacity-layer"></div>
+                        <div class="card-content">
+                            <h4>Category (B)</h4>
+                            <p>Lorem ipsum dolor sit amet elit gdr consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="industry-card industry-card--3">
+                        <div class="opacity-layer"></div>
+                        <div class="card-content">
+                            <h4>Category (C)</h4>
+                            <p>Lorem ipsum dolor sit amet elit gdr consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="feature-products page-cutting">
+        <div class="container">
+            <div class="main-header">
+                <h3 class="mb-3">Featured Products</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel delectus, et perspiciatis magni illum praesentium id rerum voluptatem mollitia quis eius voluptatibus doloribus beatae exercitationem aliquam dicta cupiditate voluptate! Sapiente.</p>
+            </div>
+            <div class="product-catgories mt-5">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Category (A)</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Category (B)</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Category (C)</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="product-card">
+                                    <div class="img-container">
+                                        <img src="./images/high-reolution/v1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="product-content mt-3">
+                                        <h4>Title</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit elit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-bg fixed-bg--1">
+        <div class="opacity-layer"></div>
+        <div class="special-edition">
+            <h4>Limited time offer</h4>
+            <h3>Special edition</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi ea soluta tempore accusantium facilis voluptatum! Reprehenderit illo rerum nobis</p>
+        </div>
+    </div>
+
+    <script src="./fontawesome/js/all.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
