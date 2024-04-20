@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/normalize.min.css">
@@ -397,6 +398,7 @@
         </div>
     </div>
 
+    <!-- fixed background -->
     <div class="fixed-bg fixed-bg--1">
         <div class="opacity-layer"></div>
         <div class="special-edition">
@@ -406,10 +408,68 @@
         </div>
     </div>
 
+    <div class="cap-area page-cutting">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cap-category cap-category--1">
+                        <div class="cap-category--icon">
+                            <i class="fa fa-truck-fast"></i>
+                        </div>
+                        <div class="cap-category--content">
+                            <h4>title</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cap-category cap-category--2">
+                        <div class="cap-category--icon">
+                            <i class="fa fa-credit-card"></i>
+                        </div>
+                        <div class="cap-category--content">
+                            <h4>title</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cap-category cap-category--3">
+                        <div class="cap-category--icon">
+                            <i class="fa fa-map"></i>
+                        </div>
+                        <div class="cap-category--content">
+                            <h4>title</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cap-category cap-category--4">
+                        <div class="cap-category--icon">
+                            <i class="fa fa-dumpster"></i>
+                        </div>
+                        <div class="cap-category--content">
+                            <h4>title</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <div id="map"></div>
+
+    </div>
+
     <script src="./fontawesome/js/all.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly&solution_channel=GMP_CCS_customcontrols_v1" defer></script>
 </body>
 </html>

@@ -52,3 +52,13 @@ function progress() {
     currentMainPost.classList.remove("main-post--not-active");
   }
 }
+
+function initMap() {
+  // The location of your business
+  var location = { lat: YOUR_LATITUDE, lng: YOUR_LONGITUDE };
+  // The map, centered at your location
+  var map = new google.maps.Map(
+      document.getElementById('map'), { zoom: 15, center: location });
+  // The marker, positioned at your location
+  var marker = new google.maps.Marker({ position: location, map: map });
+}

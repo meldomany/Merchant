@@ -494,3 +494,46 @@ body {
   line-height: 1.25;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+.cap-category {
+  position: relative;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.cap-category::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -5px;
+  width: 1px;
+  background-color: #d3c4c4;
+}
+
+.cap-category--4::after{
+  content: "";
+  width: 0px;
+}
+
+.cap-category .cap-category--icon {
+  font-size: 3rem;
+  color: #d3aa7b;
+  margin-bottom: 1rem;
+}
+
+.cap-category .cap-category--content h4 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: .3rem;
+  font-weight: 500;
+}
+
+.cap-category .cap-category--content p {
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+#map {
+  height: 100%;
+}
