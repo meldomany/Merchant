@@ -15,11 +15,13 @@ body {
 
 /* Setup */
 
+/* Main Header */
 .main-header h3{
   color: #d3aa7b;
   font-size: 3.5rem;
   font-weight: 500;
   text-transform: capitalize;
+  text-align: justify;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 } 
 
@@ -39,22 +41,26 @@ body {
   letter-spacing: .1px;
 }
 
+/* Opacity Layer */
 .opacity-layer {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   transition: all .4s ease-in-out;
+
 }
 
 .opacity-layer:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Cutting Page */
 .page-cutting {
   margin: 8rem 0;
 }
 
+/* Fixed Bg */
 .fixed-bg {
   min-height: 90vh;
   background-attachment: fixed;
@@ -66,6 +72,32 @@ body {
 
 .fixed-bg--1 {
   background-image: url("../images/high-reolution/v1.jpg");
+}
+
+/* Nav Pills */
+.nav-pills {
+  justify-content: center;
+}
+
+.nav-pills .nav-item .nav-link {
+  border-radius: 0;
+  font-size: 1.3rem;
+  background-color: rgba(211, 170, 123, 0.3);
+  margin: 0 10px;
+  transition: all .3s ease-in-out;
+}
+
+.nav-pills .nav-item .nav-link:first-child {
+  margin-left: 0;
+}
+
+.nav-pills .nav-item .nav-link:hover {
+  background-color: rgba(211, 170, 123, 0.8);
+  color: #fff;
+} 
+
+.nav-pills .nav-item .nav-link.active {
+  background-color: rgba(211, 170, 123, 0.8);
 }
 
 /* Carousel */
@@ -327,7 +359,6 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
     background-color: transparent !important;
     transition: background-color 0.5s ease;
@@ -382,7 +413,6 @@ body {
 }
 
 /* Industry */
-
 .industry .industry-card {
   height: 500px;
   width: 100%;
@@ -425,31 +455,8 @@ body {
   font-weight: 300;
 }
 
-.nav-pills {
-  justify-content: center;
-}
 
-.nav-pills .nav-item .nav-link {
-  border-radius: 0;
-  font-size: 1.3rem;
-  background-color: rgba(211, 170, 123, 0.3);
-  margin: 0 10px;
-  transition: all .3s ease-in-out;
-}
-
-.nav-pills .nav-item .nav-link:first-child {
-  margin-left: 0;
-}
-
-.nav-pills .nav-item .nav-link:hover {
-  background-color: rgba(211, 170, 123, 0.8);
-  color: #fff;
-} 
-
-.nav-pills .nav-item .nav-link.active {
-  background-color: rgba(211, 170, 123, 0.8);
-}
-
+/* Feature Products */
 .feature-products .product-catgories .product-card {
   margin: 2rem 0;
 }
@@ -472,6 +479,7 @@ body {
   letter-spacing: 1.9px;
 }
 
+/* Special Edition */
 .special-edition {
   position: absolute;
   width: 38%;
@@ -495,25 +503,14 @@ body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+
+/* Cap Area */
 .cap-category {
   position: relative;
   text-align: center;
   padding: 0 2rem;
-}
-
-.cap-category::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -5px;
-  width: 1px;
-  background-color: #d3c4c4;
-}
-
-.cap-category--4::after{
-  content: "";
-  width: 0px;
+  border-right: 1px solid #e9e1e1;
+  border-left: 1px solid #e9e1e1;
 }
 
 .cap-category .cap-category--icon {
@@ -532,8 +529,4 @@ body {
 .cap-category .cap-category--content p {
   font-size: .9rem;
   font-weight: 300;
-}
-
-#map {
-  height: 100%;
 }
