@@ -290,6 +290,17 @@ body {
   z-index: 1;
 }
 
+.posts-wrapper-2 {
+  grid-row: 3/4;
+  grid-column: 3/6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+  z-index: 1;
+}
+
+
 .post {
   background: rgba(14, 13, 14, 0.6);
   opacity: 0.3;
@@ -422,7 +433,7 @@ body {
 }
 
 .industry .industry-card--1 {
-  background-image: url(../images/high-reolution/v1.jpg);
+  background-image: url(../images/high-reolution/m-1.jpg);
 }
 
 .industry .industry-card--2 {
@@ -431,6 +442,10 @@ body {
 
 .industry .industry-card--3 {
   background-image: url(../images/high-reolution/v3.jpg);
+}
+
+.industry .industry-card--4 {
+  background-image: url(../images/high-reolution/m-4.jpg);
 }
 
 .industry .industry-card .card-content {
@@ -448,6 +463,12 @@ body {
   letter-spacing: 6px;
   font-weight: 500;
 }
+
+.industry .industry-card .card-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .industry .industry-card .card-content p {
   color: #fff;
@@ -917,3 +938,33 @@ body {
 
 
 /* End Ecommerec Product Slider */
+
+
+.accordion .card {
+  border-radius: 0;
+}
+
+
+.accordion .card .card-header {
+  background-color: #fff;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.accordion .card .card-header button {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.slider-arrows a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: aqua;
+}
