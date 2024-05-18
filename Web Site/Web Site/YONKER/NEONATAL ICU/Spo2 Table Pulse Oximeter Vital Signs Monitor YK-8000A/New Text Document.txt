@@ -1,0 +1,13 @@
+Short Description:
+
+Model: YK-8000A
+
+Display: 4.3 inch TFT sreen
+
+Parameter: Spo2, Pr
+
+Optional: Nibp, Necllor Spo2, Trolley, Wall Mount
+Power requirements: AC: 100 ~ 240V, 50Hz/60Hz
+DC: Built-in rechargeable 11.1V 24wh lithium battery
+
+Orginal: Jiangsu, China

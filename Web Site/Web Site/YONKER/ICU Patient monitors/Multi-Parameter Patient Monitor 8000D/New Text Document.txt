@@ -1,0 +1,14 @@
+Short Description:
+Model: YK-8000D
+
+Display: 14 inch TFT sreen
+
+Parameter:Spo2, Pr, Nibp, ECG, Resp, Temp
+
+Optional: Etco2, Nellcor Spo2, 2-IBP, Recorder, Touch Screen, Trolley, Wall Mount
+Power requirements: AC: 100 ~ 240V, 50Hz/60Hz
+DC: Built-in rechargeable 11.1V 24wh Li-ion battery
+
+Orginal: Jiangsu, China
+
+Cetification: CE, ISO13485, FSC, ISO9001

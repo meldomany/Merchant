@@ -1,0 +1,7 @@
+Short Description:
+
+Yonker YK-80A oximeter is CE approved, with OLED display, five colors for you to choose.
+
+Our product has automatic shutdown function, it will enter standby state in 8 seconds when there is no signal.
+
+When SpO2 and PR are under abnormal state, there will be alarm prompt.

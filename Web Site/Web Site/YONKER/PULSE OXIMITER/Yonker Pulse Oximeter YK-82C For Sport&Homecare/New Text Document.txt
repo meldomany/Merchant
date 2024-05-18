@@ -1,0 +1,13 @@
+Short Description:
+
+Special big-button design, more applicable to elders. With full silicon pad, which makes it win good user experience.
+
+Dual color OLED displays SpO2, PR, waveform, Pulse graph
+
+4-direction & 6-mode display provide convenient readings
+
+Setting alarm range of Spo2 and pulse rate
+
+Gravity function, automatic rotating read(optional)
+
+PI-Perfusion Index indication(optional)

@@ -1,0 +1,15 @@
+Short Description:
+
+E12S Moduel Multi-parameter Patient Monitor
+
+Application Range: Adult/Pediatric/Neonatal/Medicine/Surgery/Operating Room/ICU/CCU
+
+Display: 12.1 inch TFT sreen
+
+Parameter:Spo2, Pr, Nibp, ECG, Resp, Temp
+
+Optional: Etco2, Nellcor Spo2, 2-IBP, Touch Screen, Recorder, Trolley, Wall Mount
+
+Language: English, Spanish, Portugal, Poland, Russian, Turkish, French, Italian
+
+Power requirements: AC: 100 ~ 240V, 50Hz/60Hz DC: Built-in rechargeable battery, 11.1V 24wh Li-ion battery

@@ -1,0 +1,15 @@
+Short Description:
+
+Application Range: Hospital/Home/Clinic
+
+Display: TFT  Screen, 4-direction & 6-mode display provide convenient readings
+
+Parameter: Spo2, Pr, waveform, Pluse bar
+
+Optional: Gravity function, Blutooth function
+
+Mininum Order Quantity: 2000pcs
+
+Delivery: Stock Goods will be shipped within 3 days
+
+Optional: PI, HRV function,gravity sensing function, pouch, etc.

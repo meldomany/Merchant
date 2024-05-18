@@ -1,0 +1,25 @@
+Short Description:
+
+Input circuit Floating, Protection against defibrillator effect
+
+Voltage tolerance:±500m V
+
+Time constant:>3.2s
+
+Frequent response: 0.05Hz~150Hz
+
+Input Impedance: >50M?
+
+Input Circuit Current: ? 0.1µ A
+
+Patient Auxiliary Current:: < 10µ A (220V-240V/50Hz)
+
+CMRR: ? 100dB, with AC Filter
+
+A/D ResolutionA/D: 12bits/1000HZ
+
+Acquisition Mode:Simultaneously acquisition of 12 lead, full
+
+screen display of 12 channel ECG waveforms.
+
+Sensitivity:5,10,20mm/mV

@@ -1,0 +1,21 @@
+Short Description:
+
+Display:  3inch LCD screen
+
+Product name:Infusion Pump IP3
+
+Alarm:support
+
+Infusion speed:1ml/h – 1200ml/h can be incremented or decreased by 0.1ml/h
+
+Infusion volume accuracy error:±5% (ordinary infusion set)
+
+blocking pressure: High: 110kpa Medium: 80kpa Bottom: 40kpa”
+
+KVO:1ml/h – 5ml/h can be decreased in increments of 1ml/h
+
+waterproof level:IPX1
+
+voltage: AC 100~240V AC, power frequency: 50/60Hz battery input 9.5V-12.6V
+
+Lithium ion battery:2000mAh

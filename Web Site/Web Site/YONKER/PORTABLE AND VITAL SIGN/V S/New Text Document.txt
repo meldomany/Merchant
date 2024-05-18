@@ -1,0 +1,13 @@
+Short Description:
+
+Display: 8 inch TFT sreen
+
+Parameter:Spo2, Pr, Nibp
+
+Optional: Temp, Necllor Spo2,  Touch screen, Trolley, Wall Mount
+Power requirements: AC: 100 ~ 240V, 50Hz/60Hz
+DC: Built-in rechargeable 11.1V 24wh Li-ion battery
+
+Orginal: Jiangsu, China
+
+Cetification:  ISO13485, FSC, ISO9001

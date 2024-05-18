@@ -1,0 +1,44 @@
+{
+    "arabic": {
+        "greeting": "مرحبا",
+        "description": "هذا مثال بسيط لترجمة الصفحة إلى اللغة العربية"
+    },
+    "english": {
+        "greeting": "Hello",
+        "description": "This is a simple example of translating the page into English"
+    },
+    "french": {
+        "greeting": "Bonjour",
+        "description": "Ceci est un exemple simple de traduction de la page en français"
+    }
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to set content based on language
+    function setLanguage(language) {
+        fetch('translations.json')
+            .then(response => response.json())
+            .then(translations => {
+                var translation = translations[language];
+                document.getElementById("greeting").textContent = translation.greeting;
+                document.getElementById("description").textContent = translation.description;
+            });
+    }
+
+    // Change language on button click (you can change this trigger)
+    document.getElementById("arabic-btn").addEventListener("click", function() {
+        setLanguage("arabic");
+    });
+
+    document.getElementById("english-btn").addEventListener("click", function() {
+        setLanguage("english");
+    });
+
+    document.getElementById("french-btn").addEventListener("click", function() {
+        setLanguage("french");
+    });
+
+    // Set initial language (you can change this to any default language)
+    setLanguage("english");
+});
