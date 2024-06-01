@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="../../../css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/normalize.min.css">
-    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body dir="ltr">
 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top scrolled">
-      <a class="navbar-brand" href="../../../index.html">
-        <img src="../../../images/logo/albaraka-logo/png/logo-no-background.png" width="150px" height="60px" alt="">
-    </a>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./images/logo/albaraka-logo/png/logo-no-background.png" width="200px" height="80px" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -32,14 +32,14 @@
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item disabled" disabled>Egypt</a>
-                <a class="dropdown-item" href="../../../pages/sino-k/sino-k-categories.html">Sino-K</a>
-                <a class="dropdown-item" href="../../../pages/yonker/yonker-categories.html">Yonker</a>
+                <a class="dropdown-item" href="./pages/sino-k/sino-k-categories.html">Sino-K</a>
+                <a class="dropdown-item" href="./pages/yonker/yonker-categories.html">Yonker</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../../../pages/africa.html">Africa</a>
+                <a class="dropdown-item" href="./pages/africa.html">Africa</a>
               </div>
           </li>        
           <li class="nav-item">
-              <a class="nav-link" href="../../../about-us.html">About Us</a>
+              <a class="nav-link" href="./about-us.html">About Us</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -52,17 +52,17 @@
               </button>
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">
-                      <img src="../../../images/icons/egypt.png" alt="">
+                      <img src="./images/icons/egypt.png" alt="">
                       Ar
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">
-                      <img src="../../../images/icons/united-kingdom.png" alt="">
+                      <img src="./images/icons/united-kingdom.png" alt="">
                       En
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">
-                      <img src="../../../images/icons/france.png" alt="">
+                      <img src="./images/icons/france.png" alt="">
                       Fr
                   </a>
               </div>
@@ -85,99 +85,129 @@
         </ul>
       </div>
   </nav>
+    <!-- Carousel -->
+    <div class="carousel">
+      <div class="progress-bar progress-bar--primary hide-on-desktop">
+          <div class="progress-bar__fill"></div>
+      </div>
+  
+      <header class="main-post-wrapper">
+          <div class="slides">
+              <article class="main-post main-post--active">
+                  <div class="main-post__image">
+                      <img src="./images/high-reolution/m-1.jpg" alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias" />
+                  </div>
+                  <div class="main-post__content">
+                      <div class="main-post__tag-wrapper">
+                          <span class="main-post__tag">Sino-K</span>
+                      </div>
+                      <h1 class="main-post__title">Al Baraka Import and Export Company was established in 2021. The company works in the field of import and export in the fields of health, education, food, and others, with the government and private sectors.</h1>
+                  </div>
+              </article>
 
+              <article class="main-post main-post--not-active">
+                  <div class="main-post__image">
+                      <img src="./images/high-reolution/m-4.jpg"/>
+                  </div>
+                  <div class="main-post__content">
+                      <div class="main-post__tag-wrapper">
+                          <span class="main-post__tag">Yonker</span>
+                      </div>
+                      <h1 class="main-post__title">The company works to contract with major international companies to improve product quality to provide the best customer service.</h1>
+                  </div>
+              </article>
+              
+              <article class="main-post main-post--not-active">
+                  <div class="main-post__image">
+                      <img src="./images/high-reolution/v2.jpg" alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestias" />
+                  </div>
+                  <div class="main-post__content">
+                      <div class="main-post__tag-wrapper">
+                          <span class="main-post__tag">Africa</span>
+                      </div>
+                      <h1 class="main-post__title">Al Baraka Company exports Egyptian products to Middle East and African countries in the fields of health, education, food and other Egyptian products
+                      </h1>
+                  </div>
+              </article>
+          </div>
+      </header>
+  
+      <div class="posts-wrapper hide-on-mobile">
+          <article class="post post--active">
+              <div class="progress-bar">
+                  <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header">
+                  <span class="post__tag">Sino-K</span>
+                  <p class="post__published">Al Baraka Company</p>
+              </header>
+              <h2 class="post__title">The company's headquarters is in The Arab Republic of Egypt. Branches: The State of Libya - The State of Senegal, under construction.</h2>
+          </article>
+          
+          <article class="post">
+              <div class="progress-bar">
+                  <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header">
+                  <span class="post__tag">Yonker</span>
+                  <p class="post__published">Al Baraka Company</p>
+              </header>
+              <h2 class="post__title">The company's headquarters is in The Arab Republic of Egypt. Branches: The State of Libya - The State of Senegal, under construction.</h2>
+          </article>
 
+          <article class="post">
+              <div class="progress-bar">
+                  <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header">
+                  <span class="post__tag">Africa</span>
+                  <p class="post__published">Al Baraka Company</p>
+              </header>
+              <h2 class="post__title">Al Baraka Company exports Egyptian products to Middle East and African countries in the fields of health, education, food and other Egyptian products</h2>
+          </article>
+      </div>
+  </div>
+    
+    <!-- Industry -->
     <div class="page-cutting">
         <div class="container">
-            <div class="main-header mb-5">
-                <h3 class="mb-3">Blood Pressure Monitor BPA5</h3>
+            <div class="main-header">
+                <h3 class="mb-5">Contact Us</h3>
             </div>
-            <div class="slider-container" id="new-products-1">
-              <div class="slides-wrapper">
-                  <div class="slides-container">
-                      <ul class="slider-list">
-                          <li class="slider-item">
-                              <a href="#">
-                                  <img src="../../../Web Site/Web Site/YONKER/DIGITAL NIBP/Yonker Arm Type Blood Pressure Monitor BPA5Yonker Arm Type Blood Pressure Monitor BPA5/China Yonker Arm Type Blood Pressure Monitor BPA5 Manufacturer and Supplier Yonke (2).png" alt="New Product 1" />
-                              </a>
-                          </li>
-                          <li class="slider-item">
-                              <a href="#">
-                                  <img src="../../../Web Site/Web Site/YONKER/DIGITAL NIBP/Yonker Arm Type Blood Pressure Monitor BPA5Yonker Arm Type Blood Pressure Monitor BPA5/China Yonker Arm Type Blood Pressure Monitor BPA5 Manufacturer and Supplier Yonke (3).png" alt="New Product 1" />
-                              </a>
-                          </li>
-                          <li class="slider-item">
-                              <a href="#">
-                                  <img src="../../../Web Site/Web Site/YONKER/DIGITAL NIBP/Yonker Arm Type Blood Pressure Monitor BPA5Yonker Arm Type Blood Pressure Monitor BPA5/China Yonker Arm Type Blood Pressure Monitor BPA5 Manufacturer and Supplier Yonke.png" alt="New Product 1" />
-                              </a>
-                          </li>
-                          <li class="slider-item">
-                              <a href="#">
-                                  <img src="../../../Web Site/Web Site/YONKER/DIGITAL NIBP/Yonker Arm Type Blood Pressure Monitor BPA5Yonker Arm Type Blood Pressure Monitor BPA5/China Yonker Arm Type Blood Pressure Monitor BPA5 Manufacturer and Supplier Yonker.png" alt="New Product 1" />
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="slider-arrows">
-                  <a class="slider-arrow-prev">
-                    <i class="fa-solid fa-chevron-left"></i>
-                  </a>
-                  <a class="slider-arrow-next">
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-md-7">
-                <h6>Short Description:</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, necessitatibus iusto. Fuga tempora cumque iure molestiae aliquid quas consectetur nam quia. Deleniti adipisci, odio iusto aliquid illum laborum necessitatibus itaque.</p>
-              </div>
-              <div class="col-md-5">
-                <div class="row">
-                  <div class="col-md-4">
-                    Model:
-                  </div>
-                  <div class="col-md-8">
-                    YK-BPA5
-                  </div>
-                  <div class="col-md-4">
-                    Instrument classification:
-                  </div>
-                  <div class="col-md-8">
-                    Class II
-                  </div>
-                  <div class="col-md-4">
-                    Warranty:
-                  </div>
-                  <div class="col-md-8">
-                    2years
-                  </div>
-                  <div class="col-md-4">
-                    Monitor Size:
-                  </div>
-                  <div class="col-md-8">
-                    131mm*96mm*63.5mm
-                  </div>
-                  <div class="col-md-4">
-                    Products Weight:
-                  </div>
-                  <div class="col-md-8">
-                    240g
-                  </div>
-                  <div class="col-md-4">
-                    Orginal:
-                  </div>
-                  <div class="col-md-8">
-                    Jiangsu, China
-                  </div>
+            <div class="row" style="margin-top: 6rem;">
+                <div class="col-md-12"  >
+                    <p style="font-size: 2rem; color: #d3aa7b;">
+                        <i class="fa-solid fa-phone mr-5"></i>
+                        +20 103 267 1638
+                    </p>
                 </div>
-              </div>
+                <div class="col-md-12">
+                    <p style="font-size: 2rem; color: #d3aa7b;">
+                        <i class="fa-solid fa-envelope mr-5"></i>
+                        info@albaraka-ie.com
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 2rem; color: #d3aa7b;">
+                        <i class="fa-solid fa-location-dot mr-5"></i>
+                        Egypt
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 2rem; color: #d3aa7b;">
+                        <i class="fa-solid fa-location-dot mr-5"></i>
+                        The State of Libya
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 2rem; color: #d3aa7b;">
+                        <i class="fa-solid fa-location-dot mr-5"></i>
+                        The State of Senegal, under construction
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-
 
     <div class="pg-footer">
       <footer class="footer">
@@ -189,7 +219,7 @@
             <div class="footer-logo">
               <a class="footer-logo-link" href="#">
                 <span class="hidden-link-text">LOGO</span>
-                <img src="./../../../images/logo/albaraka-logo/png/logo-no-background.png" width="150px" height="60px" alt="">
+                <img src="./images/logo/albaraka-logo/png/logo-no-background.png" width="150px" height="60px" alt="">
 
               </a>
             </div>
@@ -197,13 +227,13 @@
               <h2 class="footer-menu-name"> Get Started</h2>
               <ul id="menu-get-started" class="footer-menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="./../../../index.html">Home</a>
+                  <a href="./index.html">Home</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="./../../../about-us.html">About Us</a>
+                  <a href="./about-us.html">About Us</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="./../../../contact-us.html">Contact Us</a>
+                  <a href="./contact-us.html">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -213,10 +243,10 @@
               <h2 class="footer-menu-name"> Company</h2>
               <ul id="menu-company" class="footer-menu-list">
                   <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                      <a href="./../../../about-us.html">About Us</a>
+                      <a href="./about-us.html">About Us</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                      <a href="./../../../contact-us.html">Contact Us</a>
+                      <a href="./contact-us.html">Contact Us</a>
                     </li>
               </ul>
             </div>
@@ -227,21 +257,21 @@
               <h2 class="footer-menu-name"> Quick Links</h2>
               <ul id="menu-quick-links" class="footer-menu-list">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="./../../../pages/sino-k/cuffs-6-accessories.html">cuffs</a>
+                  <a target="_blank" rel="noopener noreferrer" href="./pages/sino-k/cuffs-6-accessories.html">cuffs</a>
                 </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="./../../../pages/sino-k/ecg-cables.html">ECG</a>
+                  <a target="_blank" rel="noopener noreferrer" href="./pages/sino-k/ecg-cables.html">ECG</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="./../../../pages/yonker/yonker-categories.html">yonker-categories</a>
+                  <a href="./pages/yonker/yonker-categories.html">yonker-categories</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="./../../../pages/africa.html">Africa</a>
+                  <a href="./pages/africa.html">Africa</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                  <a href="./../../../egypt.html">Egypt</a></li>
+                  <a href="./egypt.html">Egypt</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="./../../../about-us.html">about-us</a>
+                  <a href="./about-us.html">about-us</a>
                 </li>
               </ul>
             </div>
@@ -297,11 +327,10 @@
       </footer>
     </div>
 
-    <script src="../../../js/slider.js"></script>
-    <script src="../../../fontawesome/js/all.min.js"></script>
-    <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/popper.min.js"></script>
-    <script src="../../../js/bootstrap/bootstrap.min.js"></script>
-    <script src="../../../js/main.js"></script>
+    <script src="./fontawesome/js/all.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
